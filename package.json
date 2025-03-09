@@ -1,6 +1,4 @@
-# Create a basic package.json file
-echo '{
-  "name": "your-project-name",
+ "name": "your-project-name",
   "version": "1.0.0",
   "description": "Your project description",
   "main": "index.js",
@@ -10,7 +8,3 @@ echo '{
   "keywords": [],
   "author": "",
   "license": "ISC"
-}' > package.json
-
-# Then install dependencies
-bun install
